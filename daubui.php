@@ -36,10 +36,9 @@ $white= "\033[1;3;37m";//trắng
 $pink="\033[35;40m";
 ///xóa tất cả phía trên
 @system('clear');
-///key có chức năng nhập lại 1 lần khi viết sai
 echo $tim. "API key: ";
 $key=trim(fgets(STDIN));
-echo $pink. "Tâm trạng của tôi không vui nên muốn nhập gì thì nhập";
+echo $pink. "Khong co key nhung iu ban 36...";
 for($d=0;$d<3;$d++){
   echo $pink. ".";
   sleep(1);
@@ -78,12 +77,12 @@ for ($y=0;$y<86;$y++){
 }
 echo "\n";
 
-    echo "\033[1;31m ●\033[1;36m Nhập cookie facebook: \033[1;33m";
+    echo "\033[1;31m \033[1;36m Nhập cookie facebook: \033[1;33m";
     $cookie = trim(fgets(STDIN));
     sleep(0.5);
     echo" => Đã Lưu cookie Facebook\n";
     sleep(0.5);
-    echo "\033[1;31m ●\033[1;36m Nhập cookie TTC: \033[1;33m";
+    echo "\033[1;31m \033[1;36m Nhập cookie TTC: \033[1;33m";
     $cookieTTC  = trim(fgets(STDIN));
     sleep(0.5);
     echo" => Đã Lưu cookie TTC\n";
