@@ -38,7 +38,7 @@ $pink="\033[35;40m";
 @system('clear');
 echo $tim. "API key: ";
 $key=trim(fgets(STDIN));
-echo $pink. "Khong co key nhung iu ban 36...";
+echo $pink. "Khong co key nhung iu em...";
 for($d=0;$d<3;$d++){
   echo $pink. ".";
   sleep(1);
